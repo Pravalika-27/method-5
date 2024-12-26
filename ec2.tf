@@ -1,5 +1,5 @@
 resource "aws_instance" "public_subnet-1" {
-ami="ami-012967cc5a8c9f891"
+ami="ami-0ca9fb66e076a6e32"
 instance_type="t2.micro"
 count=1
 key_name="pinku"
